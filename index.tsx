@@ -3,14 +3,16 @@ import { Link } from 'expo-router';
 
 export default function Home() {
   return (
-    <View style= { { alignItems: 'center' , marginTop: 20} }>
-      <Text>Mi nombre es Tiago Corválan</Text>
-      <Link href="/saludo">
-        Ir a saludo.
-      </Link>
-      <Link href="/perfil">
-        Ir a perfil
-      </Link>
-    </View>
+    <View style= { { alignItems: 'center', marginTop: 20} }>
+        <Text>
+            Mi nombre es Tiago Corvalan
+        </Text>
+        <Link href="/saludo">
+            Ir a Saludo
+        </Link>
+        <Link href="/perfil">
+            Ir a Perfil
+        </Link>
+  </View>
   );
 }
