@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, Button } from 'react-native';
 
 export default function PantallaInicio({ navigation }) {
-  const usuario = { nombre: 'Federico', edad: 18 };
+  const usuario = { nombre: 'Tiago', edad: 18 };
 
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', gap: 10 }}>
